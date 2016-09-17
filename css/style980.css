@@ -1,0 +1,473 @@
+@media only screen and (min-width: 800px) and (max-width: 980px),
+only screen and (min-device-width: 800px) and (max-device-width: 980px){
+	/*
+	================================================================================
+	|                                     HEADER                                   |
+	================================================================================
+	*/
+	#header{
+		min-width:800px;
+		width: 100%;
+	}
+	#header .top_info{
+		width: auto;
+		/* margin: 0 auto; */
+		/* padding: 15px 20px 25px; */
+		overflow: hidden;
+	}
+	#header .top_info .logo{
+		width: auto;
+		float: none;
+		padding: 0px 0 0 1px;
+	}
+	#header .top_info .header_contacts{
+		width: auto;
+		float: left;
+		padding: 8px 0 0 5px;
+	}
+	#header .top_info .header_contacts .phone{
+		padding: 0 0 2px 0;
+	}
+	#header .top_info .socials{
+		float: right;
+		width: auto;
+		text-align: right;
+	}
+	#search_form{
+		float: none;
+		position: absolute;
+		top:20px;
+		right: 10px;
+	}
+	/*
+	================================================================================
+	|                                     NAVIGATION                               |
+	================================================================================
+	*/
+	.bg_navigation{
+		width: 100%;
+		min-width: 800px;
+	}
+	.navigation_wrapper{
+		width: auto;
+	}
+	#navigation{
+		width: auto;
+		float: none;
+		padding: 0 0 0 0;
+	}
+	/*
+	================================================================================
+	|                                     CONTENT                                  |
+	================================================================================
+	*/
+	#content{
+		width:100%;
+		min-width: 800px;
+		margin: 0 auto;
+	}
+	.content{
+		width: auto;
+		margin: 0 auto;
+	}
+	.slider_wrapper{
+		float: left;
+		width: 100%;
+		padding: 0 0px 0 0;
+	}
+	.search_auto_wrapper{
+		width: 30%;
+		float: right;
+	}
+	.main_wrapper .left,
+	.main_wrapper .right{
+		width: 98.5%;
+		float:left;	
+	}
+	.main_wrapper .kanan{
+		width: 30%;
+		float: right;
+		padding: 0 0 0 20px;
+	}
+	.wrapper_2 .left,
+	.wrapper_3 .left{
+		width: 65%;
+		float: left;
+		padding-top:13px;
+	}
+	.wrapper_2 .left .kiri,
+	.wrapper_2 .left .kanan{
+		width:100%;
+		float:left;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.wrapper_2 .right,
+	.wrapper_3 .right{
+		width: 30%;
+		float: right;
+		padding: 0 0 0 20px;
+	}
+	/*
+	================================================================================
+	|                                     SLIDER                                   |
+	================================================================================
+	*/
+	.home_slider .slider{
+		width: 100%;
+		height: auto;
+	}
+	.home_slider .slider .slide{
+		width: 100%;
+	
+	}
+	.home_slider .slider .slide img{
+		width: 100%;
+		
+	}
+	.home_slider .slider .slide .description{
+		width: 100%;
+		padding: 10px 0 10px;
+	}
+	.home_slider .slider .slide .description h2{
+		max-width: 450px;
+	}
+	
+	
+	/*
+	================================================================================
+	|                              CUSTOM SELECT                                   |
+	================================================================================
+	*/
+	.select_box_1 .select-list{
+		width: 100%;
+	}
+	.select_box_2 .select-list{
+		width: 100%;
+	}
+	.catalog_sidebar .select_box_1 .select-list,
+	.car_sidebar .select_box_1 .select-list{
+		width: 100%;
+	}
+	/*
+	================================================================================
+	|                                     BANNERS                                   |
+	================================================================================
+	*/
+	.banner a img{
+		width: 100%;
+	}
+	.banner_1{
+		width: 44%;
+	}
+	.banner_2{
+		width: 44%;
+	}
+	.main_banner{
+		padding: 18px 15px 18px 18px;
+	}
+	.main_banner a{
+		margin: 12px 0 0 67px;
+	}
+	/*
+	================================================================================
+	|                                     RECENT BLOG                              |
+	================================================================================
+	*/
+	.recent_blog{
+		padding-bottom: 10px;
+	}
+	.recent_blog h2{
+		margin-bottom: 10px;
+	}
+	
+	.recent_blog img{
+	width: 97%;
+	/*height:250px;*/
+	}
+	
+	
+	/*
+	================================================================================
+	|                               HOME NEWS		                              |
+	================================================================================
+	*/
+	.news{
+		width: auto;
+	}
+	.news h2{
+		width: 100%;
+		max-width: 180px;
+		margin: 0 auto 20px;
+	}
+	.news .news_box{
+		max-width: 180px;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.news .news_box .thumb{
+		width: 100%;
+	}
+	.news .news_box .thumb img{
+		width: 100%;
+	}
+	.news .news_box .thumb2 img{
+		width: 100%;	
+	}
+	.news .all_wrapper{
+		width: 100%;
+		max-width: 180px;
+		margin: 0 auto;
+	}
+	/*
+	================================================================================
+	|                               SUBSCRIBE		                              |
+	================================================================================
+	*/
+.side_banners{
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:10PX;	
+	}
+	.side_banners img{
+		width: 100%;
+	}
+	/*
+	================================================================================
+	|                                     FOOTER                                   |
+	================================================================================
+	*/
+	#footer{
+		min-width:800px;
+		width: 100%;
+	}
+
+	.copyright_wrapper{
+		width: 100%;
+		min-width: 800px;
+	}
+	.copyright_wrapper .copyright .kiri{
+	width:auto;
+	}
+	.copyright_wrapper .copyright .kanan{
+	width:auto;
+	padding-right:5%;
+	}
+	.copyright_wrapper2{
+	
+	width: 100%;
+	min-width: 940px;
+	font-size:20px;
+	background: #ffff00;
+	
+	}
+	/*
+	================================================================================
+	|                                     404	                                   |
+	================================================================================
+	*/
+	.needs_wrapper .post_block{
+		float: left;
+		width: 30%;
+		padding: 0 2% 0 1%;
+	}
+	.needs_wrapper .post_block.center{
+		padding: 0 1% 0 2%;
+	}
+	/*
+	================================================================================
+	|                                  CONTACTS		                                |
+	================================================================================
+	*/
+	.contacts_box .left{
+		width: 30%;
+		float: left;
+	}
+	.contacts_box .map{
+		width: 65%;
+		float: right;
+		overflow: hidden;
+	}
+	.contact_form{
+		padding: 0 0 28px;
+	}
+	.contact_form h2{
+		margin-bottom: 15px;
+	}
+	.contact_form .fld_box{
+		width: 33%;
+		float: left;
+		padding: 0 0px 0 0px;
+	}
+	
+	.contact_form input{
+	    width: 80%;
+	}
+	.contact_form textarea{
+	    width: 95%;
+	}
+	ul.personal_list{
+		overflow: hidden;
+	}
+	ul.personal_list li{
+		width: 80%;
+		float: none;
+		display: block;
+		margin: 0 0px 36px 0;
+	}
+	ul.personal_list li img.thumb{
+		float: left;
+		margin: 0 0 0 0;
+		width:40%;
+	}
+	ul.personal_list li .inner{
+		float: none;
+		padding: 18px 0 0 25px;
+		width: auto;
+	}
+	/*
+	================================================================================
+	|                                     CATALOG                                   |
+	================================================================================
+	*/
+	.main_catalog{
+		float:none;
+		width: auto;
+		padding: 15px 0 0 260px;
+	}
+	/*
+	================================================================================
+	|                                CATALOG LIST	                              |
+	================================================================================
+	*/
+	.catalog_list li{
+		width: 32%;
+		margin-right: 0px;
+		overflow: hidden;
+	}
+	
+	.catalog_list li a{
+		cursor: pointer;
+		width: auto;
+		height: auto;
+	}
+	.catalog_list li .description{
+		position: absolute;
+		top:0;
+		bottom: auto;
+		left:0;
+		width: 83.5%;
+	
+		line-height: 18px;
+		padding: 10px 15px 10px 15px;
+	}
+	.catalog_list li img{
+		top:0;
+		left:0;
+		width: 100%;
+		height: 90%;
+	}
+	.catalog_list li .title{
+		bottom:0;
+		left:0;
+		width: 83.5%;
+	}
+	
+
+	/*
+	================================================================================
+	|                                SELL			                              |
+	================================================================================
+	*/
+	.sell_box .select_wrapper,
+	.sell_box .input_wrapper,
+	.sell_box .single_chb_wrapper{
+		width: 100%;
+	}
+	.sell_box .input_wrapper input,
+	.sell_box .input_wrapper textarea{
+	
+		width: 90%;
+	}
+	
+	.sell_box .chb_group{
+		float: left;
+		padding: 4px 0 0 0;
+		width: 100%;
+	}
+	
+	.sell_box .select_wrapper.large{
+		width: 100%;
+	}
+	/*
+	================================================================================
+	|                                     CHECKBOXES                               |
+	================================================================================
+	*/
+	.custom_chb_wrapper label{
+		float: none;
+		padding: 0 0 0 25px;
+		display: block;
+	}
+	/*
+	================================================================================
+	|                                 BLOG		                                   |
+	================================================================================
+	*/
+	.blog{
+		width: 65%;
+		float: left;
+		padding: 0 0px 20px 0;
+	}
+	
+	.blog_post .blog_desc{
+		float: none;
+		width: auto;
+		padding: 2px 0 0 205px;
+	}
+	/*
+	================================================================================
+	|                                     WIDGETS                                   |
+	================================================================================
+	*/
+	.sidebar{
+		float: right;
+		width: 25%;
+		padding-bottom: 20px;
+	}
+	.sidebar .widget .thumb{
+		width: auto;
+		display: block;
+	}
+	.sidebar .widget .thumb img{
+		width: 100%;
+	}
+	.sidebar .tabs_widget .tab_post .desc{
+		width: auto;
+		float: none;
+		padding: 2px 0 0 71px;
+	}
+	
+	/*
+	================================================================================
+	|                                     SERVICES                                 |
+	================================================================================
+	*/
+	.services .service{
+		width: 24%;
+		float: left;
+		padding: 19px 19px 14px 19px;
+		height: auto;
+		overflow: hidden;
+	}
+	.services .service.center{
+		margin: 0 5% 0 4%;
+	}
+	.services .service h2{
+		min-height: 39px;
+		font-size: 26px;
+		line-height: 32px;
+		padding: 3px 0 11px 53px;
+	}
+	

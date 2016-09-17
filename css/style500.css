@@ -1,0 +1,608 @@
+@media only screen and (min-width: 400px) and (max-width: 500px),
+only screen and (min-device-width: 400px) and (max-device-width: 500px){
+	
+	.fL{
+	float:center;
+	margin-left:20%;
+	}
+	
+	
+	/*
+	================================================================================
+	|                                     HEADER                                   |
+	================================================================================
+	*/
+	cite{
+		display: block;
+	}
+	#header{
+		min-width:400px;
+		width: 100%;
+		padding-top: 40px;
+	}
+	#header .top_info{
+		width: auto;
+		/* margin: 0 auto; */
+		/* padding: 15px 20px 25px; */
+	}
+	#header .top_info .logo{
+		width: auto;
+		float: none;
+		text-align: center;
+		padding: 0px 0 0 0px;
+	}
+	#header .top_info .header_contacts{
+		width: auto;
+		float: none;
+		padding: 8px 0 0 0px;
+		text-align: center;
+	}
+	#header .top_info .header_contacts .phone{
+		padding: 0 0 2px 0;
+	}
+	#header .top_info .socials{
+		float: none;
+		width: auto;
+		text-align: center;
+		padding: 14px 0 0 0;
+	}
+	#search_form{
+		float: none;
+		width: 100%;
+		position: absolute;
+		top:10px;
+		right: 0px;
+		padding: 10px 0 0 0;
+		text-align: center;
+	}
+	/*
+	================================================================================
+	|                                     NAVIGATION                               |
+	================================================================================
+	*/
+	.bg_navigation{
+		width: 100%;
+		min-width: 400px;
+	}
+	.navigation_wrapper{
+		width: auto;
+		padding: 15px 0 15px 0;
+		overflow: visible;
+	}
+	#navigation{
+		width: 200px;
+		float: none;
+		padding: 0 0 0 0;
+		background: url(../images/bg_small_navigation.jpg) repeat-x 0 0;
+		height: 29px;
+		margin: 0 auto;
+		border-radius: 5px;
+		position: relative;
+	}
+	#navigation span{
+		display: block;
+	}
+	#navigation ul{
+		display: none;
+		position: absolute;
+		top:29px;
+		left:0;
+		background: #283C4C;
+		width: 200px;
+		border-radius: 0 0 5px 5px;
+	}
+	#navigation ul li{
+		display: block;
+		width: 200px;
+		height: 29px;
+		margin-bottom: 3px
+	}
+	#navigation ul li a{
+		font-size: 15px;
+		height: 29px;
+		line-height: 28px;
+		display: block;
+		color: #FFFFFF;
+		padding:0 15px;
+		text-shadow:none;
+	}
+	/*
+	================================================================================
+	|                                     CONTENT                                  |
+	================================================================================
+	*/
+	#content{
+		width:100%;
+		min-width: 400px;
+		margin: 0 auto;
+	}
+	.content{
+		width: auto;
+		margin: 0 auto;
+	}
+	.slider_wrapper{
+		float: none;
+		width: 100%;
+		padding: 0 0px 0 0;
+		margin-bottom: 20px;
+	}
+	.search_auto_wrapper{
+		width: 100%;
+		float: right;
+	}
+	.wrapper_2 .left,
+	.wrapper_3 .left{
+		width: 100%;
+		float: left;
+		padding-top:13px;
+	}
+	.wrapper_2 .left .kiri,
+	.wrapper_2 .left .kanan{
+		width:100%;
+		float:left;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.wrapper_2 .right,
+	.wrapper_3 .right{
+		width: 100%;
+		float: right;
+		padding: 0 0 0 0px;
+	}
+	
+	.main_wrapper .left,
+	.main_wrapper .right{
+		width: 98.5%;
+		float: left;
+	}
+	.main_wrapper .kanan{
+		width: 100%;
+		float: right;
+		padding: 0 0 0 0px;
+	}
+	
+	.home_tabs .box.visible{
+		position:relative;
+	}
+	img.alignright {
+		float:none; 
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	img.alignleft {
+		float:none; 
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	img.aligncenter {
+		display: block; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
+	.alignright {
+		float:none; 
+		margin-left: 0;
+		margin-bottom: 16px;
+	}
+	.alignleft {
+		float:none; 
+		margin-right: 0;
+		margin-bottom: 16px;
+	}
+	/*
+	================================================================================
+	|                                     SLIDER                                   |
+	================================================================================
+	*/
+	.home_slider .slider{
+		width: 100%;
+		height: 70%;
+	}
+	.home_slider .slider .slide{
+		width: 100%;
+		height: 70%;
+		padding-bottom: 50px;
+	}
+	.home_slider .slider .slide img{
+		width: 100%;
+		height: 50%;
+	}
+	.home_slider .slider .slide .description{
+		width: 100%;
+		padding: 10px 0 30px;
+	}
+	.home_slider .slider .slide .description h2{
+		max-width: 340px;
+	}
+	.home_slider .bx-controls{
+	bottom:10px;
+	}
+	/*
+	================================================================================
+	|                               HOME NEWS		                              |
+	================================================================================
+	*/
+	.news {
+		overflow: hidden;
+		float: none;
+		width: auto;
+	}
+	.news h2{
+		margin: 0 auto 20px;
+	}
+	.news_wrapper{
+		float: none;
+		width: 100%;
+		overflow: hidden;
+	}
+	.news .news_box{
+		margin: 0;
+		width: 100%;
+		float: none;
+		overflow: hidden;
+		padding-bottom:17px;
+	}
+	.news .news_box.bottom{
+		float: none;
+	}
+	.news .news_box .thumb{
+		width: 100%;
+		float: left;
+		margin-right: 15px;
+	}
+	.news .news_box .thumb img{
+		width: 100%;
+	}
+	.news .news_box2{
+		margin: 0;
+		width: 48%;
+		float: left;
+		overflow: hidden;
+		padding-left:5px;
+		
+	}
+	.news .news_box2 .thumb2{
+		width: 98%;
+		
+		
+	}
+	.news .news_box2 .thumb2 img{
+		width:100%;	
+	}
+	.news .all_wrapper{
+		width: 100%;
+		margin: 0;
+		clear: both;
+	}
+
+	/*
+	================================================================================
+	|                                     RECENT BLOG                              |
+	================================================================================
+	*/
+	.recent_blog{
+		padding-bottom: 10px;
+	}
+	.recent_blog h2{
+		margin-bottom: 10px;
+	}
+	.recent_blog img{
+		width: 95%;	
+	}
+	
+	/*
+	================================================================================
+	|                                     FOOTER                                   |
+	================================================================================
+	*/
+	#footer{
+		min-width:400px;
+		width: 100%;
+	}
+	
+	.copyright_wrapper{
+		width: 100%;
+		min-width: 400px;
+	}
+	.copyright_wrapper .copyright .kiri{
+	width:100%;
+	}
+	.copyright_wrapper .copyright .kanan{
+	width:100%;
+	padding-top:10px;
+	}
+	.copyright_wrapper2{
+	
+	width: 100%;
+	min-width:400px;
+	font-size:20px;
+	background: #ffff00;
+	
+	}
+	/*
+	================================================================================
+	|                                     404	                                   |
+	================================================================================
+	*/
+	.needs_wrapper {
+		padding-bottom: 0;
+	}
+	.needs_wrapper .post_block{
+		float: none;
+		width: auto;
+		padding: 0 0 20px;
+	}
+	.needs_wrapper .post_block.center{
+		padding:0 0 20px;
+	}
+	.newsletter .txb{
+		width: 200px;
+	}
+	#counter .countdown_section{
+		width: 50px;
+	}
+	#counter .countdown_amount{
+		width: 50px;
+		height: 50px;
+		background: url(../images/digit_small.png) no-repeat 0 0;
+		font-size: 35px;
+		line-height: 50px;
+		padding: 0 0 0 0px;
+	}
+	/*
+	================================================================================
+	|                                  CONTACTS		                                |
+	================================================================================
+	*/
+	.contacts_box .left{
+		width: 100%;
+		float: none;
+	}
+	.contacts_box .map{
+		width: auto;
+		float: none;
+		overflow: hidden;
+	}
+	.contact_form{
+		padding: 0 0 28px;
+	}
+	.contact_form h2{
+		margin-bottom: 15px;
+	}
+	.contact_form .fld_box{
+		width: 100%;
+		float: none;
+		padding: 0 0px 0 0px;
+	}
+
+	.contact_form input{
+	    width: 92%;
+	}
+	.contact_form textarea{
+	    width: 95%;
+	}
+	ul.personal_list{
+		overflow: hidden;
+	}
+	ul.personal_list li{
+		width: 100%;
+		float: none;
+		display: block;
+		margin: 0 0px 36px 0;
+	}
+	ul.personal_list li img.thumb{
+		float: left;
+		margin: 0 0 0 0;
+		width:43%;
+	}
+	ul.personal_list li .inner{
+		float: none;
+		padding: 18px 0 0 25px;
+		width: auto;
+	}
+	ul.personal_list li .grey_area span{
+		display: block;
+	}
+	ul.personal_list li .inner .fR,
+	ul.personal_list li .inner .fL{
+		float: none;
+	}
+	/*
+	================================================================================
+	|                                     CATALOG                                   |
+	================================================================================
+	*/
+	.main_catalog{
+		float:none;
+		width: auto;
+		padding: 15px 0 0 0;
+	}
+	
+	/*
+	================================================================================
+	|                                CATALOG LIST	                              |
+	================================================================================
+	*/
+	.catalog_list li{
+		width: 45%;
+		margin-right: 2%;
+		overflow: hidden;
+	}
+	
+	.catalog_list li a{
+		cursor: pointer;
+		width: auto;
+		height: auto;
+	}
+	.catalog_list li .description{
+		position: absolute;
+		top:0;
+		bottom: auto;
+		left:0;
+		width: 85%;
+		line-height: 18px;
+	}
+	.catalog_list li img{
+		top:0;
+		left:0;
+		width: 100%;
+	}
+	.catalog_list li .title{
+		bottom:0;
+		left:0;
+		width: 85%;	}
+	
+	
+	/*
+	================================================================================
+	|                                SELL			                              |
+	================================================================================
+	*/
+	.sell_box .select_wrapper,
+	.sell_box .input_wrapper,
+	.sell_box .single_chb_wrapper{
+		width: 100%;
+	}
+	.sell_box .input_wrapper input{
+		width: 90%;
+	}
+	.sell_box .input_wrapper textarea{
+		width: 90%;
+		height: 50px;
+	}
+	
+	.sell_box .chb_group{
+		float: none;
+		padding: 4px 0 20px 0;
+		width: 100%;
+	}
+	
+	.chb_devider{
+		display: block;
+		clear: both;
+	}
+	.sell_box .foto_wrapper{
+		width: 28%;
+		margin: 6px 3% 20px 2%;
+	}
+	.sell_box .foto_wrapper a{
+		width: 98%;
+	}
+	.sell_box .foto_wrapper
+	/*
+	================================================================================
+	|                                     CHECKBOXES                               |
+	================================================================================
+	*/
+	.custom_chb_wrapper label{
+		float: none;
+		padding: 0 0 0 25px;
+		display: block;
+	}
+	/*
+	================================================================================
+	|                                 BLOG		                                   |
+	================================================================================
+	*/
+	.blog{
+		width: 100%;
+		float: none;
+		padding: 0 0px 20px 0;
+	}
+	.blog_single_post img{
+	width:100%;
+	float:none;
+	height:auto;
+	}
+	.blog_post .blog_desc{
+		float: none;
+		width: auto;
+		padding: 2px 0 0 0px;
+	}
+	.blog_post .thumb, 
+	.blog_post .thumb img{
+		float: none;
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+	
+	/*
+	================================================================================
+	|                               SUBSCRIBE		                              |
+	================================================================================
+	*/
+	
+	.side_banners img{
+		width: 100%;
+	}
+	.side_banners{
+		float: none;
+		width: auto;
+	}
+	
+	
+	/*
+	================================================================================
+	|                                     WIDGETS                                   |
+	================================================================================
+	*/
+	.sidebar{
+		float: none;
+		width: 100%;
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+	.sidebar .widget{
+		float: none;
+		width: auto;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.sidebar .widget .thumb{
+		width: auto;
+		display: block;
+	}
+	.sidebar .widget .thumb img{
+		width: 100%;
+	}
+	.sidebar .tabs_widget{
+		width: auto;
+		margin-right: 0;
+		margin-left: 0;
+		float: none;
+	}
+	.sidebar .tabs_widget .tab_post .desc{
+		float: none;
+		padding: 2px 0 0 71px;
+	}
+	.widget_divider{
+		display: block;
+		clear: both;
+	}
+	
+	/*
+	================================================================================
+	|                                     SERVICES                                 |
+	================================================================================
+	*/
+	.services .service{
+		width: auto;
+		float: none;
+		padding: 19px 19px 14px 19px;
+		height: auto;
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.services .service.center{
+		margin: 0 0 20px 0;
+	}
+	.services .service h2{
+		min-height: 39px;
+		font-size: 26px;
+		line-height: 32px;
+		padding: 3px 0 11px 53px;
+	}
+	
